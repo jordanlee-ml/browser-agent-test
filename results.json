@@ -1,0 +1,741 @@
+{
+  "fixture": "/home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html",
+  "gold": "Aero Mug, $18",
+  "tested_at": "2026-10-20T05:31:17+1000",
+  "agents": [
+    {
+      "agent": "deepseek-chat",
+      "success": true,
+      "answer": "Aero Mug \u2014 $18 (rating 4.4/5, in stock). Cheapest in-stock product rated 4.0+.",
+      "steps": 11,
+      "elapsed_s": 22.37,
+      "failure": null,
+      "trajectory": [
+        {
+          "step": 1,
+          "action": {
+            "action": "click",
+            "selector": "text=Accept cookies"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nWe use cookies to keep the shop working and to understand which products people look at. You can accept or decline; the shop works either way.\n\nAccept cookies\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Accept cookies\"}"
+        },
+        {
+          "step": 2,
+          "action": {
+            "action": "click",
+            "selector": "text=View details >> nth=0"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details >> nth=0\"}"
+        },
+        {
+          "step": 3,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 4,
+          "action": {
+            "action": "click",
+            "selector": "text=View details >> nth=1"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details >> nth=1\"}"
+        },
+        {
+          "step": 5,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBolt Bottle\n$12\nRating: 4.6 / 5\nOut of stock\nInsulated steel, 750 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 6,
+          "action": {
+            "action": "click",
+            "selector": "text=View details >> nth=2"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details >> nth=2\"}"
+        },
+        {
+          "step": 7,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nCedar Tray\n$15\nRating: 3.8 / 5\nIn stock\nOiled cedar, 30 cm.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 8,
+          "action": {
+            "action": "click",
+            "selector": "text=View details >> nth=3"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details >> nth=3\"}"
+        },
+        {
+          "step": 9,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nDrift Lamp\n$22\nRating: 4.1 / 5\nIn stock\nWarm LED, dimmable.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 10,
+          "action": {
+            "action": "click",
+            "selector": "text=View details >> nth=4"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details >> nth=4\"}"
+        },
+        {
+          "step": 11,
+          "action": {
+            "action": "finish",
+            "answer": "Aero Mug \u2014 $18 (rating 4.4/5, in stock). Cheapest in-stock product rated 4.0+."
+          },
+          "result": "finished",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nEmber Bowl\n$9\nRating: 4.9 / 5\nOut of stock\nStoneware, 18 cm.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"finish\",\"answer\":\"Aero Mug \u2014 $18 (rating 4.4/5, in stock). Cheapest in-stock product rated 4.0+.\"}"
+        }
+      ]
+    },
+    {
+      "agent": "deepseek-reasoner",
+      "success": true,
+      "answer": "Aero Mug \u2014 $18 (rating 4.4/5, in stock)",
+      "steps": 12,
+      "elapsed_s": 19.59,
+      "failure": null,
+      "trajectory": [
+        {
+          "step": 1,
+          "action": {
+            "action": "click",
+            "selector": "text=Accept cookies"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nWe use cookies to keep the shop working and to understand which products people look at. You can accept or decline; the shop works either way.\n\nAccept cookies\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Accept cookies\"}"
+        },
+        {
+          "step": 2,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details\"}"
+        },
+        {
+          "step": 3,
+          "action": {
+            "action": "click",
+            "selector": "button:has-text('View details') >> nth=1"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text('View details')\").nth(1).first\n    - locator resolved to <button data-id=\"p2\">View details</button>\n  - attempting click action\n ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"button:has-text('View details') >> nth=1\"}"
+        },
+        {
+          "step": 4,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text('View details')\").nth(1).first\n    - locator resolved to <button data-id=\"p2\">View details</button>\n  - attempting click action\n ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 5,
+          "action": {
+            "action": "click",
+            "selector": "button[data-id=p2]"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"button[data-id=p2]\"}"
+        },
+        {
+          "step": 6,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBolt Bottle\n$12\nRating: 4.6 / 5\nOut of stock\nInsulated steel, 750 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 7,
+          "action": {
+            "action": "click",
+            "selector": "button[data-id=p3]"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"button[data-id=p3]\"}"
+        },
+        {
+          "step": 8,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nCedar Tray\n$15\nRating: 3.8 / 5\nIn stock\nOiled cedar, 30 cm.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 9,
+          "action": {
+            "action": "click",
+            "selector": "button[data-id=p4]"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"button[data-id=p4]\"}"
+        },
+        {
+          "step": 10,
+          "action": {
+            "action": "click",
+            "selector": "text=Close"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nDrift Lamp\n$22\nRating: 4.1 / 5\nIn stock\nWarm LED, dimmable.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Close\"}"
+        },
+        {
+          "step": 11,
+          "action": {
+            "action": "click",
+            "selector": "button[data-id=p5]"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"button[data-id=p5]\"}"
+        },
+        {
+          "step": 12,
+          "action": {
+            "action": "finish",
+            "answer": "Aero Mug \u2014 $18 (rating 4.4/5, in stock)"
+          },
+          "result": "finished",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nEmber Bowl\n$9\nRating: 4.9 / 5\nOut of stock\nStoneware, 18 cm.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"finish\",\"answer\":\"Aero Mug \u2014 $18 (rating 4.4/5, in stock)\"}"
+        }
+      ]
+    },
+    {
+      "agent": "qwen2.5:7b",
+      "success": false,
+      "answer": null,
+      "steps": 20,
+      "elapsed_s": 106.16,
+      "failure": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+      "trajectory": [
+        {
+          "step": 1,
+          "action": {
+            "action": "click",
+            "selector": "text=Accept cookies"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nWe use cookies to keep the shop working and to understand which products people look at. You can accept or decline; the shop works either way.\n\nAccept cookies\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Accept cookies\"}"
+        },
+        {
+          "step": 2,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=View details\"}"
+        },
+        {
+          "step": 3,
+          "action": {
+            "action": "fill",
+            "selector": "text=Aero Mug",
+            "text": ""
+          },
+          "result": "action failed",
+          "error": "Error: Locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\"action\":\"fill\",\"selector\":\"text=Aero Mug\",\"text\":\"\"}"
+        },
+        {
+          "step": 4,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: Error: Locator.fill: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 5,
+          "action": {
+            "action": "click",
+            "selector": "css=h3:contains(Aero Mug)"
+          },
+          "result": "action failed",
+          "error": "Error: Locator.click: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': 'h3:contains(Aero Mug)' is not a valid selector.\n    at query (<anonymous>:5448:41)\n    at <anonymous>:5458:7\n    at SelectorEvaluatorImpl._",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"css=h3:contains(Aero Mug)\"}"
+        },
+        {
+          "step": 6,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: Error: Locator.click: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': 'h3:contains(Aero Mug)' is not a valid selector.\n    at query (<anonymous>:5448:41)\n    at <anonymous>:5458:7\n    at SelectorEvaluatorImpl._",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 7,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 8,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 9,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 10,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 11,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 12,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 13,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 14,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 15,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 16,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 17,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 18,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 19,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        },
+        {
+          "step": 20,
+          "action": {
+            "action": "click",
+            "selector": "text=Aero Mug"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=Aero Mug\").first\n    - locator resolved to <h3>Aero Mug</h3>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled ",
+          "raw": "{\"action\":\"click\",\"selector\":\"text=Aero Mug\"}"
+        }
+      ]
+    },
+    {
+      "agent": "qwen2.5-coder:7b",
+      "success": false,
+      "answer": null,
+      "steps": 20,
+      "elapsed_s": 98.34,
+      "failure": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+      "trajectory": [
+        {
+          "step": 1,
+          "action": {
+            "action": "click",
+            "selector": "text=Accept cookies"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nWe use cookies to keep the shop working and to understand which products people look at. You can accept or decline; the shop works either way.\n\nAccept cookies\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=Accept cookies\"\n}"
+        },
+        {
+          "step": 2,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "clicked",
+          "error": null,
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 3,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 4,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 5,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 6,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 7,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 8,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 9,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 10,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 11,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 12,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 13,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 14,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 15,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 16,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 17,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 18,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 19,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        },
+        {
+          "step": 20,
+          "action": {
+            "action": "click",
+            "selector": "text=View details"
+          },
+          "result": "action failed",
+          "error": "TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "observation": "URL: file:///home/tnyi/projects/yt-faceless/series/episodes/ep002/fixture/shop.html\nVISIBLE TEXT:\nNorthline Supply\nShop \u00b7 Shipping \u00b7 Returns\nEveryday goods, quietly good.\n\nFive products. Check the details before you choose.\n\nIn stock only\nSort\nFeatured\nPrice: low to high\nRating: high to low\n5 products shown\nAero Mug\nTap for price, rating, and stock.\nView details\nBolt Bottle\nTap for price, rating, and stock.\nView details\nCedar Tray\nTap for price, rating, and stock.\nView details\nDrift Lamp\nTap for price, rating, and stock.\nView details\nEmber Bowl\nTap for price, rating, and stock.\nView details\n\nNorthline Supply \u2014 a fixture for a browser-agent test. No real orders.\n\nAero Mug\n$18\nRating: 4.4 / 5\nIn stock\nDouble-wall ceramic, 350 ml.\nClose\n\nBUTTONS: View details | View details | View details | View details | View details | Close | Accept cookies\nLAST ACTION ERROR: TimeoutError: Locator.click: Timeout 2500ms exceeded.\nCall log:\n  - waiting for locator(\"text=View details\").first\n    - locator resolved to <button data-id=\"p1\">View details</button>\n  - attempting click action\n    2 \u00d7 waiting for el",
+          "raw": "{\n  \"action\": \"click\",\n  \"selector\": \"text=View details\"\n}"
+        }
+      ]
+    }
+  ]
+}

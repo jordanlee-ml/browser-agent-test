@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Northline Supply — Shop</title>
+<style>
+  :root{--ink:#18202b;--muted:#6b7686;--line:#e3e7ee;--accent:#1f6feb;--bg:#f6f7f9;--card:#fff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+  header{background:var(--card);border-bottom:1px solid var(--line);padding:18px 40px;display:flex;align-items:center;justify-content:space-between}
+  .brand{font-weight:800;font-size:20px;letter-spacing:.02em}
+  .brand span{color:var(--accent)}
+  .nav{color:var(--muted);font-size:14px}
+  main{max-width:1060px;margin:0 auto;padding:32px 24px 80px}
+  h1{font-size:30px;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:24px}
+  .controls{display:flex;gap:24px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:24px;font-size:14px}
+  .controls label{display:flex;gap:8px;align-items:center;cursor:pointer}
+  select,button{font:inherit}
+  select{border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:10px}
+  .card h3{font-size:18px}
+  .card .hint{color:var(--muted);font-size:13px}
+  .card button{align-self:flex-start;background:var(--accent);color:#fff;border:0;border-radius:8px;padding:8px 14px;cursor:pointer}
+  .modal-bg{position:fixed;inset:0;background:rgba(10,15,25,.55);display:none;align-items:center;justify-content:center;z-index:50}
+  .modal-bg.open{display:flex}
+  .modal{background:#fff;border-radius:14px;width:420px;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+  .modal h2{font-size:22px;margin-bottom:8px}
+  .modal .price{font-size:28px;font-weight:800;margin:8px 0}
+  .modal .row{color:var(--muted);font-size:14px;margin:4px 0}
+  .modal .close{margin-top:16px;background:#18202b;color:#fff;border:0;border-radius:8px;padding:9px 16px;cursor:pointer}
+  .cookie{position:fixed;inset:0;background:rgba(10,15,25,.72);z-index:9999;display:flex;align-items:flex-end;justify-content:center;padding:28px}
+  .cookie-inner{background:#fff;border-radius:12px;max-width:760px;width:100%;padding:20px 24px;display:flex;gap:20px;align-items:center;justify-content:space-between;box-shadow:0 20px 60px rgba(0,0,0,.3)}
+  .cookie p{font-size:14px;color:var(--muted);max-width:520px}
+  .cookie button{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:11px 18px;cursor:pointer;white-space:nowrap}
+  .footer{color:var(--muted);font-size:12px;margin-top:32px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">Northline <span>Supply</span></div>
+  <div class="nav">Shop · Shipping · Returns</div>
+</header>
+<main>
+  <h1>Everyday goods, quietly good.</h1>
+  <p class="sub">Five products. Check the details before you choose.</p>
+
+  <div class="controls">
+    <label><input type="checkbox" id="inStock"> In stock only</label>
+    <label>Sort
+      <select id="sort">
+        <option value="featured">Featured</option>
+        <option value="price">Price: low to high</option>
+        <option value="rating">Rating: high to low</option>
+      </select>
+    </label>
+    <span id="count" class="hint"></span>
+  </div>
+
+  <div class="grid" id="grid"></div>
+  <p class="footer">Northline Supply — a fixture for a browser-agent test. No real orders.</p>
+</main>
+
+<div class="modal-bg" id="modalBg">
+  <div class="modal" id="modal">
+    <h2 id="mName"></h2>
+    <div class="price" id="mPrice"></div>
+    <div class="row" id="mRating"></div>
+    <div class="row" id="mStock"></div>
+    <div class="row" id="mDesc"></div>
+    <button class="close" id="mClose">Close</button>
+  </div>
+</div>
+
+<div class="cookie" id="cookie">
+  <div class="cookie-inner">
+    <p>We use cookies to keep the shop working and to understand which products people look at. You can accept or decline; the shop works either way.</p>
+    <button id="accept">Accept cookies</button>
+  </div>
+</div>
+
+<script>
+const PRODUCTS = [
+  {id:'p1', name:'Aero Mug',     price:18, rating:4.4, stock:'In stock',     desc:'Double-wall ceramic, 350 ml.'},
+  {id:'p2', name:'Bolt Bottle',  price:12, rating:4.6, stock:'Out of stock', desc:'Insulated steel, 750 ml.'},
+  {id:'p3', name:'Cedar Tray',   price:15, rating:3.8, stock:'In stock',     desc:'Oiled cedar, 30 cm.'},
+  {id:'p4', name:'Drift Lamp',   price:22, rating:4.1, stock:'In stock',     desc:'Warm LED, dimmable.'},
+  {id:'p5', name:'Ember Bowl',   price:9,  rating:4.9, stock:'Out of stock', desc:'Stoneware, 18 cm.'}
+];
+const grid = document.getElementById('grid');
+const inStock = document.getElementById('inStock');
+const sort = document.getElementById('sort');
+const count = document.getElementById('count');
+
+function render(){
+  let rows = PRODUCTS.slice();
+  if (inStock.checked) rows = rows.filter(p => p.stock === 'In stock');
+  if (sort.value === 'price') rows.sort((a,b)=>a.price-b.price);
+  if (sort.value === 'rating') rows.sort((a,b)=>b.rating-a.rating);
+  grid.innerHTML = '';
+  rows.forEach(p => {
+    const el = document.createElement('div');
+    el.className = 'card';
+    el.innerHTML = `<h3>${p.name}</h3><div class="hint">Tap for price, rating, and stock.</div>
+      <button data-id="${p.id}">View details</button>`;
+    el.querySelector('button').addEventListener('click', ()=>openModal(p));
+    grid.appendChild(el);
+  });
+  count.textContent = `${rows.length} products shown`;
+}
+function openModal(p){
+  document.getElementById('mName').textContent = p.name;
+  document.getElementById('mPrice').textContent = '$' + p.price;
+  document.getElementById('mRating').textContent = 'Rating: ' + p.rating.toFixed(1) + ' / 5';
+  document.getElementById('mStock').textContent = p.stock;
+  document.getElementById('mDesc').textContent = p.desc;
+  document.getElementById('modalBg').classList.add('open');
+  document.getElementById('modalBg').dataset.product = p.id;
+}
+document.getElementById('mClose').addEventListener('click', ()=>document.getElementById('modalBg').classList.remove('open'));
+document.getElementById('modalBg').addEventListener('click', (e)=>{ if(e.target.id==='modalBg') e.currentTarget.classList.remove('open'); });
+inStock.addEventListener('change', render);
+sort.addEventListener('change', render);
+document.getElementById('accept').addEventListener('click', ()=>document.getElementById('cookie').style.display='none');
+render();
+</script>
+</body>
+</html>
